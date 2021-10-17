@@ -4,12 +4,12 @@ with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup(
-    name='arduino_uno_do',
+    name='arduino_tweaks',
     version='0.0.1',
     description='GUI for controlling arduino UNO IO',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    py_modules=['arduino_uno'],
+    py_modules=['arduino_tweaks'],
     package_dir={'': 'src'},
     url='https://github.com/chaitanya-ycr/arduino',
     author='chaitanya reddy y',
